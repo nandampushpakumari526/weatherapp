@@ -1,0 +1,73 @@
+
+#weather-result {
+    display: none;
+
+    width: 400px;
+    padding: 25px;
+
+    margin: 30px auto;
+
+    background: linear-gradient(
+        135deg,
+        #84a900,
+        #4056a1
+    );
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+
+    box-sizing: border-box;
+}
+
+/* City Name */
+
+#weather-result h2 {
+    color: white;
+
+    font-size: 28px;
+
+    margin-bottom: 20px;
+}
+
+/* Temperature */
+
+#temp {
+    font-size: 30px;
+
+    font-weight: bold;
+
+    color: white;
+
+    background: transparent !important;
+
+    padding: 0 !important;
+
+    margin: 20px 0 !important;
+
+    line-height: 1.4;
+}
+
+/* Weather Details */
+
+#weather-result p:not(#temp) {
+    background: white;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    margin: 15px 0;
+
+    color: #222;
+
+    font-size: 17px;
+
+    box-sizing: border-box;
+}
+
+#weather-result p:empty {
+    display: none;
+}
